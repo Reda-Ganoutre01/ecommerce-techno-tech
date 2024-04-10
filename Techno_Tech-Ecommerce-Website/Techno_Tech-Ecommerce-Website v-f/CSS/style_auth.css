@@ -1,0 +1,143 @@
+.wrapp{
+    width:450px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #636363;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0, 0.1);
+    backdrop-filter: blur(1.5px);
+    
+    
+    }
+    #wrapp_title{
+    
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+    
+    }
+    
+    .wrapp_form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+    
+    
+    }
+    #wrapp_btn{
+    
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(17, 107, 143);
+    
+    }
+    #wrapp_btn:hover {
+    
+        background: rgb(17, 107, 143);
+    }
+    
+    .wrapp_form input:focus {
+    
+    border: 1px solid rgb(192, 192, 192);
+    
+    }
+    
+    .wrapp .member{
+    
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+    
+    
+    }
+    .wrapp .member a{
+    
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+    }
+
+    /*Profile page*/
+
+.navv {
+
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height:60px;
+    z-index: 100;
+
+}   
+.logoo {
+
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.right-links a {
+
+    padding: 0 10px;
+
+}
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background: #636363;
+
+}
+.main-box{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+
+}
+.main-box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bottom{
+
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+@media only screen and (max-width:840px){
+
+    .main-box .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top .box {
+
+        margin: 10px 10px;
+
+    }
+
+}
+ 

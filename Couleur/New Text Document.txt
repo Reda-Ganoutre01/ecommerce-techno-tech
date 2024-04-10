@@ -1,4 +1,0 @@
-black:#382A3D
-perpel:#512DA8
-
-blue :#334add
