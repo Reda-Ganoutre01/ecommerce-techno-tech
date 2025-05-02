@@ -37,7 +37,7 @@ Project web e-commerce pour un magazine gaming.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-techno-tech.git
+   git clone https://github.com/Reda-Ganoutre01/Ecommerce-Techno-Tech.git
 
 2. Move the project to your XAMPP htdocs directory:
 
@@ -49,8 +49,8 @@ mv ecommerce-techno-tech /C:/xampp/htdocs/
 
 4. Import the database:
 - Open phpMyAdmin in your browser (usually at `http://localhost/phpmyadmin`).
-- Create a new database named `ecommerce_techno_tech`.
-- Import the provided SQL file (`database.sql`) located in the project directory.
+- Create a new database named `ecom_db`.
+- Import the provided SQL file (`ecom_db.sql`) located in the project directory.
 
 5. Configure the project:
 - Open the `config.php` file in the project directory.
