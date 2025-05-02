@@ -1,0 +1,251 @@
+:root{
+    --primary-color: #334add;
+    --main-color:#2980b9;
+    --orange:#f39c12;
+    --orange_pricipc:#ff523b;
+    --red:#e74c3c;
+    --black:#444;
+    --white:#fff;
+    --light-color:#666;
+    --light-bg:#eee;
+    --header-bg:#e3e6f3;
+  
+    --border:.1rem solid var(--light-color);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+  }
+   */
+  html {
+    scroll-behavior: smooth;
+  }
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+box-shadow: var(--white);
+border-radius: .5rem;
+
+
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-info h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.product-info img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.product-info h6 {
+    color: #666;
+}
+
+.product-info .description {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-info .description h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-info .description p {
+    color: #666;
+}
+
+.pricing-info {
+    flex: 0 0 400px;
+    padding: 20px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    border-left: 1px solid #ddd;
+    border-radius: 10px;
+}
+.Element_prix{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.pricing-info h2 {
+    margin-top: -10px;
+    font-size: 29px;
+    color: #333;
+}
+
+.pricing-info h3 {
+    color: var(--primary-color);
+    font-size: 29px;
+    margin-top: 0;
+}
+.pricing-info .star i {
+    font-size: 16px;
+    color: #ff523b;
+}
+
+
+.review {
+    position: relative; /* Make the review section relative */
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.delivery-info {
+    margin-top: 20px;
+}
+
+.delivery-info p {
+    color: #666;
+}
+
+.command-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.command-btn:hover {
+    background-color: #0056b3;
+}
+
+.add-to-cart-btn {
+    background-color: var(--orange_pricipc);
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: var(--orange_pricipc);
+}
+
+.similar-products {
+    margin-top: 50px;
+}
+
+.similar-products h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.similar-products .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.similar-products .product {
+    flex: 0 0 calc(20% - 20px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.similar-products .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+
+.similar-products .product .details {
+    padding: 20px;
+}
+
+.similar-products .product .details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.similar-products .product .details .price {
+    color: #28a745;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.similar-products .product .details .delivery-info {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* quantite */
+.quantity-btn {
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 18px;
+    color:var(--black);
+    border: 1px solid var(--black);
+    background-color: var(--light-bg);
+    border-radius: 5px;
+    cursor: pointer;
+    margin:5px;
+}
+
+.quantity-btn:hover {
+    background-color: transparent;
+}
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input input[type="number"]::-webkit-inner-spin-button,
+.quantity-input input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*FAVOIRTIRE ICON*/
+
+
+favorite_icon{
+
+    margin-left: 50px;
+
+}
