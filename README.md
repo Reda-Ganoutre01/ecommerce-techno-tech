@@ -66,5 +66,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 For any inquiries or support, please contact:
 
-Email: bganoutre52@gmail.com
-GitHub: Reda-Ganoutre01
+-Email: bganoutre52@gmail.com
+
+-GitHub: https://github.com/Reda-Ganoutre01
