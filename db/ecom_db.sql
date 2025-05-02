@@ -107,8 +107,6 @@ CREATE TABLE `client` (
 INSERT INTO `client` (`id_client`, `nom_client`, `email_client`, `mod_pass_client`) VALUES
 (1, 'adnanne', 'aryf@gmail.com', '$2y$10$BrXDdy8HA/PKJ17GPjRkKeuOaM4.POPXlrMNpKmypjA'),
 (16, 'ad35354111', 'bgamoutre52111@gmail.com', 'bgamoutre52111@gmail.com'),
-(17, 'b2', 'bganoutre52@gmail.com', 'reda1234'),
-(18, 'da', 'bgamoutre52@gmail.com', 'bgamoutre52@gmail.com'),
 (19, 'dadada52111@gmail.com', 'dadada52111@gmail.com', 'dadada52111@gmail.com');
 
 -- --------------------------------------------------------
