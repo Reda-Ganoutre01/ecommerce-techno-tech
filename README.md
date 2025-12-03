@@ -92,9 +92,11 @@ Modern e-commerce platform specializing in gaming equipment and tech accessories
 - User administration
 - Analytics dashboard
 
-## License
-MIT License
 
-Contact  
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact  
 Email: bganoutre52@gmail.com  
 GitHub: [Reda-Ganoutre01](https://github.com/Reda-Ganoutre01)
